@@ -8,6 +8,6 @@ class ProductTests(TestCase):
     Product model
     """
 
-     def test_str(self):
+def test_str(self):
         test_name = Product(name='A product')
         self.assertEqual(str(test_name), 'A product')
